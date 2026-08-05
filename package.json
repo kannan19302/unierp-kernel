@@ -1,6 +1,6 @@
 {
   "name": "@unerp/kernel",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "L1 — tenancy context, PolicyEngine, audit, outbox, idempotency, rate limiting, versioning, observability primitives",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

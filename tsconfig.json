@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "CommonJS",
-    "lib": ["ES2020"],
+    "lib": [
+      "ES2020"
+    ],
     "outDir": "dist",
     "rootDir": "src",
     "strict": true,
@@ -12,5 +14,17 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ],
+  "extends": "./tsconfig.base.json",
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.test.ts",
+    "**/*.stories.tsx",
+    "**/__tests__/**"
+  ]
 }

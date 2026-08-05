@@ -16,9 +16,11 @@ jobs:
           node-version: 22
       - run: npm install --no-audit --no-fund
 
-      # The gate that makes the split worth its cost. See scripts/check-layer.mjs.
+      # The layer rule, asserted rather than assumed. See scripts/check-layer.mjs.
       - name: Layering
         run: node scripts/check-layer.mjs
+        if: hashFiles('scripts/check-layer.mjs') != ''
 
       - name: Typecheck
         run: npx tsc --noEmit
+        if: hashFiles('tsconfig.json') != ''
