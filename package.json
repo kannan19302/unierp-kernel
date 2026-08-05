@@ -1,0 +1,17 @@
+{
+  "name": "@unerp/kernel",
+  "version": "1.0.0",
+  "description": "L1 — tenancy context, PolicyEngine, audit, outbox, idempotency, rate limiting, versioning, observability primitives",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@unerp/contracts": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
