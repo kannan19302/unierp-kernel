@@ -1,5 +1,5 @@
 /**
- * @unerp/kernel — governor primitives (A19).
+ * @kannan19302/kernel — governor primitives (A19).
  *
  * The canonical, dependency-free definition of per-tenant resource budgets —
  * "governor limits", the Salesforce analogue. Sandbox (L2) and api (L3) each

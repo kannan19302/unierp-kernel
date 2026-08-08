@@ -1,5 +1,5 @@
 {
-  "name": "@unerp/kernel",
+  "name": "@kannan19302/kernel",
   "version": "1.0.3",
   "description": "L1 — tenancy context, PolicyEngine, audit, outbox, idempotency, rate limiting, versioning, observability primitives",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@unerp/contracts": "^1.0.4"
+    "@kannan19302/contracts": "^1.0.4"
   },
   "devDependencies": {
     "typescript": "^5.7.0",

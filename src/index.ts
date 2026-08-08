@@ -1,6 +1,6 @@
 /**
- * @unerp/kernel — L1. Primitives every plane shares.
- * Depends only on @unerp/contracts (L0).
+ * @kannan19302/kernel — L1. Primitives every plane shares.
+ * Depends only on @kannan19302/contracts (L0).
  * See PLATFORM_ARCHITECTURE.md § 4.2.
  */
 
