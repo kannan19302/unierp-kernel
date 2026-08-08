@@ -54,3 +54,12 @@ export interface OutboxEvent {
   publishedAt?: Date;
   retries: number;
 }
+
+export {
+  TenantGovernor,
+  GovernorLimitError,
+  type GovernorLimits,
+  type GovernorBudgetKey,
+  type GovernorCharge,
+  type GovernorEvent,
+} from "./governor";
