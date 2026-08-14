@@ -73,3 +73,11 @@ export {
   type StructuredLogEntry,
 } from "./logger";
 
+export {
+  TestClock,
+  createTwoTenantFixture,
+  type TwoTenantFixture,
+  FaultInjector,
+} from "./test-harness";
+
+
